@@ -8,6 +8,7 @@ header{
 	position: fixed;
 	width: 100%;
 	color:white;
+	z-index: 100;
 }
 .navbar-default {
     background-color: rgba(240, 95, 64, 0.75);
