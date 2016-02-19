@@ -1,6 +1,6 @@
 .box-image .info, .box-image .contenido {
-    width: 390px;
-    height: 210px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -46,7 +46,7 @@ transition-delay: 0.1s;
 }
 
 .photo {
-	width: 390px;
+	width: 750px;
 }
 
 .col-md-4, .col-xs-12 {
@@ -72,7 +72,7 @@ transition-delay: 0.1s;
 .categoria {
 	font-size: 18px;
 	color: #F3A291;
-	margin-top: 92px;
+	margin-top: 68px;
 	font-weight: bold;
 }
 .nombre-proyecto {
@@ -153,7 +153,7 @@ transition-delay: 0.1s;
      .categoria {
 	     font-size: 18px !important;
 	     color: #F3A291;
-	     margin-top: 90px !important;
+	     margin-top: 70px !important;
 	     font-weight: bold;
     }
     .box-image .info, .box-image .contenido {
@@ -222,7 +222,7 @@ transition-delay: 0.1s;
     .categoria {
 	     font-size: 27px;
 	     color: #F3A291;
-	     margin-top: 95px;
+	     margin-top: 70px;
 	     font-weight: bold;
     }
     .nombre-proyecto {
@@ -235,9 +235,20 @@ transition-delay: 0.1s;
 
 @media only screen and (max-width: 990px) {
     .box-image .info, .box-image .contenido {
-         width: 742px;
-         height: 203px;
+         width: 100%;
+         height: 407px;
      }
+    .categoria {
+         font-size: 27px;
+         color: #F3A291;
+         margin-top: 140px;
+         font-weight: bold;
+    }
+    .nombre-proyecto {
+         font-size: 30px;
+         color: white;
+         margin-top: 14px;
+    }
      .right {
     
          margin-left: 90px;
@@ -249,3 +260,4 @@ transition-delay: 0.1s;
 }
 
 }
+
